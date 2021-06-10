@@ -84,7 +84,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .start_text button {
@@ -111,6 +111,10 @@ body {
 
     .p_left img {
         width: 100%;
+    }
+
+    .p_left h1, .p_left p {
+        padding-left: 16px;
     }
 
     .p_right {
@@ -296,11 +300,11 @@ body {
         z-index: 100;
         background-color: white;
     }
-    .nav {
+    .menu {
+        width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        list-style: none;
+        justify-content: space-around;
     }
     
     .start {
@@ -320,8 +324,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
-        padding: auto 16px;
+        padding-left: 16px;
         padding-bottom: 32px;
     }
 
